@@ -1,0 +1,45 @@
+title: My personal blog - Alex Sun
+email: sunming_100@outlook.com
+description: > 
+permalink: ':title/'
+baseurl: "" 
+url: "http://blog.smartimer.net" 
+
+# Author settings
+author: Alex Sun # add your name
+author-pic: Alex-Sun-face.jpg
+about-author: My name is Alex Sun.
+
+# Contact links
+email: sunming_100@outlook.com
+phone: +8518537179125
+website: # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: artemsheludko # Add your Github handle
+twitter: '@artemsheludko_' # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
